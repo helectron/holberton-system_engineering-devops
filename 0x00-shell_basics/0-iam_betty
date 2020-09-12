@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty /home/vagrant/holberton-system_engineering-devops/0-iam_betty
+sudo betty
