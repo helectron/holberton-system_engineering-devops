@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Loops from 1 to ten with bad and good luck
+
+i=0
+
+while ((i<8))
+do
+    if [ $i -eq 3 ]
+    then
+        echo "bad luck"
+
+    elif [ $i -eq 6 ]
+    then
+        echo "good luck"
+
+    fi
+    echo "Holberton School"
+    ((i++))
+done
+
+#displays bad luck for the 4th loop iteration
+#displays good luck for the 8th loop iteration
+#displays Holberton School for the other iterations
