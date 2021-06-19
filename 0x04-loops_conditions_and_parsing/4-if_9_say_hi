@@ -3,9 +3,9 @@
 
 i=0
 
-while [ $i -le 8 ]
+while [ $i -le 9 ]
 do
-	if [[ $i -eq 8 ]] # -eq equal
+	if [[ $i -eq 9 ]] # -eq equal
 	then
 		echo "Hi" 
 	fi
