@@ -9,7 +9,7 @@ do
         echo "Hour: 0"
     fi
     echo $i
-    i=$((i+1))
+    ((i++))
 done
 
 i=1
