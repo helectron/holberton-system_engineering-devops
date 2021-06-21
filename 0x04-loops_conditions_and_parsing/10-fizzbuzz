@@ -6,11 +6,11 @@
 # Otherwise, displays the number in a list format
 
 for ((number=1;number<=100;number++)); do
-    if ! ((number%15)); then
+    if ((number%15)); then
         echo FizzBuzz
-    elif ! ((number%3)); then
+    elif ((number%3)); then
         echo Fizz
-    elif ! ((number%5)); then
+    elif ((number%5)); then
         echo Buzz
     else
         echo $number
