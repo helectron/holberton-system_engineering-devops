@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays the content of the current directory 
-# No numbers or delim, just names
+# Bash script that displays the gives info about a file or directory
 
 FILE="holbertonschool"
 if test -e "$FILE"
