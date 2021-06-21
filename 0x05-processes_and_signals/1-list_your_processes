@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that  displays Displaying output in UNIX format If you wish to display currently running processes.
+
+ps -aux -f
