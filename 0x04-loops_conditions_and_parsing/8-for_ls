@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Bash script that displays the content of the current directory 
+# No numbers or delim, just names
+
+command=$(ls)
+for f in $command
+do
+    echo "$f" | cut -d "-" -f 2  #-d(delimiter) -f (field number)
+done
+
