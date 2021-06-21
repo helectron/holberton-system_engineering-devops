@@ -1,6 +1,9 @@
-## Processes and signals
+# Processes and signals
 
-# Learning objectives
+![Kill](https://www.computerhope.com/cdn/linux/kill.gif))
+
+
+## Learning objectives
 * What is a PID
 * What is a process
 * How to find a process’ PID
