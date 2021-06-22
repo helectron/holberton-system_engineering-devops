@@ -4,5 +4,4 @@
 while : # an alternative to the “true” command
 do
   echo "To infinity and beyond"
-  sleep 1
 done
